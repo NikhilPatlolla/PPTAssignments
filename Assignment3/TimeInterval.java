@@ -13,7 +13,7 @@ public class TimeInterval {
     }
 
     public static void main(String[] args) {
-        boolean b = canAttendMeetings(new int[][]{{0, 30}, {5, 10}, {15, 20}});
+        boolean b = canAttendMeetings(new int[][]{{0, 3}, {5, 10}, {15, 20}});
         System.out.println(b);
     }
 }
